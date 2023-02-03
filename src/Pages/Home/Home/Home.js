@@ -1,9 +1,12 @@
 import React from "react";
+import About from "../../About/About";
+import Banner from "../Banner/Banner";
 
 function Home() {
   return (
     <div>
-      <h2>This Home</h2>
+      <Banner />
+      <About />
     </div>
   );
 }
