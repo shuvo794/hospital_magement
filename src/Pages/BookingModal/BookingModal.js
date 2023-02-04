@@ -1,7 +1,8 @@
 import React from "react";
 
 
-function BookingModal() {
+function BookingModal({ treatment }) {
+  const { name } = treatment;
   return (
     <>
       <input type="checkbox" id="Booking-modal" className="modal-toggle" />
@@ -13,9 +14,7 @@ function BookingModal() {
           >
             ✕
           </label>
-          <h3 className="text-lg font-bold">
-            Congratulations random Internet user!
-          </h3>
+          <h3 className="text-lg font-bold">{name}</h3>
           <p className="py-4">
             You've been selected for a chance to get one year of subscription to
             use Wikipedia for free!
