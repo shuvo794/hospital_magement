@@ -33,6 +33,7 @@ function AppointOption({ appointmentOption, setTreatment }) {
         </p>
         <div className="card-actions justify-start">
           <label
+            disabled={slots.length === 0}
             htmlFor="Booking-modal"
             className="btn"
             onClick={() => setTreatment(appointmentOption)}
