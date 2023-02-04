@@ -3,6 +3,7 @@ import About from "../../About/About";
 
 import Banner from "../Banner/Banner";
 import Services from "../../Services/Services";
+import Blogs from "../../Blog/Blogs/Blogs";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Banner />
       <Services />
       <About />
+      <Blogs />
     </div>
   );
 }
