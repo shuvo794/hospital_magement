@@ -1,8 +1,10 @@
 .Dr{
     width: 350px;
     height: 450px;
+    margin-right: 20px;
     
 }
 .hero{
     background-color:#dcdde1;
+    width: 100%;
 }

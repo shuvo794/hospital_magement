@@ -2,7 +2,7 @@ import React from "react";
 
 function Contuc() {
   return (
-    <div class="container mx-auto my-20 w-1/3 border border-purple-500 bg-white">
+    <div class="container mx-auto my-20 w-1/2 border border-purple-500 bg-white">
       <div class="p-5 space-y-5 shadow-xl">
         <h4 class="text-center text-3xl">Contact Us</h4>
 

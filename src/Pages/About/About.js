@@ -13,11 +13,11 @@ function About() {
     >
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row">
-          <div>
-            <h1 className=" text-black text-4xl font-bold">
-              About Dr. Jamal Uddin
-            </h1>
-            <p className="text-black py-6">
+          <div className="p-20">
+            <h1 className=" text-black text-4xl font-bold ">About</h1>
+            <h2 className="text-black text-4xl font-bold ">Dr. Jamal Uddin</h2>
+            <br />
+            <p className="text-black ">
               Nam vehicula malesuada lectus, interdum fringilla nibh. Duis
               aliquam vitae metus a pharetra. Lorem ipsum dolor sit amet,
               consectetur adipiscing elit. Nam vehicula malesuada lectus,
