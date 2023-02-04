@@ -1,6 +1,5 @@
 import { format } from "date-fns";
 import React, { useEffect, useState } from "react";
-// import appointmentOptions from "../../../../public/appointmentOptions.json";
 import AppointOption from "../AppointOption/AppointOption";
 
 function AvailableAppoinment({ selectedDate }) {
@@ -16,7 +15,7 @@ function AvailableAppoinment({ selectedDate }) {
       <p className="text-center font-bold mb-10 mt-7">
         Available Appoinment On {format(selectedDate, "PP")}
       </p>
-      <div className="justfycontent-center">
+      <div>
         {appointmentOptions.map((option) => (
           <AppointOption
             key={option._id}

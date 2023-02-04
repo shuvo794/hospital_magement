@@ -1,7 +1,8 @@
 import React from "react";
 
-function BookingModal() {
-  return <div>BookingModal</div>;
+
+function BookingModal({ treatment, setTreatment, selectedDate }) {
+  return <></>;
 }
 
 export default BookingModal;

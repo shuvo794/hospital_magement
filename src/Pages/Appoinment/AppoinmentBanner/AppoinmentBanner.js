@@ -19,7 +19,6 @@ function AppoinmentBanner({ selectedDate, setSelectedDate }) {
               selected={selectedDate}
               onSelect={setSelectedDate}
             />
-            <p>Your Date selected : {format(selectedDate, "PP")}</p>
           </div>
         </div>
       </div>

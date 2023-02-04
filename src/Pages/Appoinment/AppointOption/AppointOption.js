@@ -1,6 +1,6 @@
 import React from "react";
 
-function AppointOption({ appointmentOptions }) {
+function AppointOption({ appointmentOptions, setTreatment }) {
   const { name, slots } = appointmentOptions;
   return (
     // <div className="card shadow-xl">
@@ -31,9 +31,7 @@ function AppointOption({ appointmentOptions }) {
         <p>
           {slots.length} {slots.length > 1 ? "spaces" : "space"} available
         </p>
-        <div className="card-actions justify-start">
-          <button className="btn btn-primary">Book Appointment</button>
-        </div>
+        <div className="card-actions justify-start"></div>
       </div>
     </div>
   );
