@@ -1,0 +1,19 @@
+#excel{
+    padding: 1em;
+}
+
+#excel h2{
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+#excel table {
+    width: 100%;
+}
+
+#excel table tr th, #excel table tr td{
+    padding: .5em 1em;
+    border: 1px solid black;
+}
