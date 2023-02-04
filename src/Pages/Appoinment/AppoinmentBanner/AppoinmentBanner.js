@@ -1,10 +1,9 @@
 import { format } from "date-fns";
-import React, { useState } from "react";
+
 import { DayPicker } from "react-day-picker";
 import doctorBnner from "../../../assets/doctorBanner.png";
 
-function AppoinmentBanner() {
-  const [selectedDate, setSelectedDate] = useState(new Date());
+function AppoinmentBanner({ selectedDate, setSelectedDate }) {
   return (
     <header>
       <div className="hero ">
