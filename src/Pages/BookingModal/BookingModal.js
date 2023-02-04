@@ -17,7 +17,7 @@ function BookingModal({ treatment, selectedDate }) {
           </label>
           <h3 className="text-lg font-bold">{name}</h3>
           <form className="grid grid-cols-1 gap-3 mt-10">
-            <input type="text" value={date} className="input w-full" />
+            <input type="text" disabled value={date} className="input w-full" />
             <input
               type="text"
               placeholder="Type here"
