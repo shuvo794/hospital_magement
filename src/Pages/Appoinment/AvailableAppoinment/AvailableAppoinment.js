@@ -30,6 +30,7 @@ function AvailableAppoinment({ selectedDate }) {
         <BookingModal
           selectedDate={selectedDate}
           treatment={treatment}
+          setTreatment={setTreatment}
         ></BookingModal>
       )}
     </section>
