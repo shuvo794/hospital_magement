@@ -31,7 +31,11 @@ function AppointOption({ appointmentOptions, setTreatment }) {
         <p>
           {slots.length} {slots.length > 1 ? "spaces" : "space"} available
         </p>
-        <div className="card-actions justify-start"></div>
+        <div className="card-actions justify-start">
+          <label htmlFor="Booking-modal" className="btn">
+            Book Appionment
+          </label>
+        </div>
       </div>
     </div>
   );
