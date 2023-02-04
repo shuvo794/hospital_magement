@@ -1,8 +1,9 @@
 import React from "react";
+import { format } from "date-fns";
 
-
-function BookingModal({ treatment }) {
+function BookingModal({ treatment, selectedDate }) {
   const { name } = treatment;
+  const date = format(selectedDate, "PP");
   return (
     <>
       <input type="checkbox" id="Booking-modal" className="modal-toggle" />
@@ -15,10 +16,35 @@ function BookingModal({ treatment }) {
             ✕
           </label>
           <h3 className="text-lg font-bold">{name}</h3>
-          <p className="py-4">
-            You've been selected for a chance to get one year of subscription to
-            use Wikipedia for free!
-          </p>
+          <form className="grid grid-cols-1 gap-3 mt-10">
+            <input type="text" value={date} className="input w-full" />
+            <input
+              type="text"
+              placeholder="Type here"
+              className="input w-full"
+            />
+            <input
+              type="text"
+              placeholder="Type here"
+              className="input w-full"
+            />
+            <input
+              type="text"
+              placeholder="Type here"
+              className="input w-full"
+            />
+            <input
+              type="text"
+              placeholder="Type here"
+              className="input w-full"
+            />
+            <br />
+            <input
+              className="btn btn-accent w-full max-w-xs"
+              type="submit"
+              value="Submit"
+            />
+          </form>
         </div>
       </div>
     </>
