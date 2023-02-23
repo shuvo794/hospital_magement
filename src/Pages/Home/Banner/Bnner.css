@@ -11,4 +11,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+  
+}
+.top-text{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -140px;
+    margin-left: 30px;
+}
+.peragraph{
+    margin-left: 30px;
 }
