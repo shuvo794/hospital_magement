@@ -5,10 +5,10 @@
    width: 1148px;
    height: 650px;
    margin-top: 0px;
-   
-   
-  
-  
-   
-   
+}
+
+.fix-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
