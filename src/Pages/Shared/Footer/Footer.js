@@ -3,15 +3,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer
-      style={
-        {
-          // background: `url(${footer})`,
-          // backgroundSize: 'cover'
-        }
-      }
-      className="p-10 bg-neutral text-neutral-content"
-    >
+    <footer className="p-10 bg-neutral text-neutral-content">
       <div className="footer ">
         <div>
           <span className="footer-title text-white">Services</span>
