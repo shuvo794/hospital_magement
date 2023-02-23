@@ -1,4 +1,14 @@
-
-.title{
-    
+.banner{
+   /*  background-image: '../../../assets/banner-8.jpg'; */
+   background-image: url('../../../assets/banner-8.jpg');
+   
+   width: 1148px;
+   height: 650px;
+   margin-top: 0px;
+   
+   
+  
+  
+   
+   
 }
