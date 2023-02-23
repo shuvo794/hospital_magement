@@ -4,7 +4,7 @@
    
    width: 1148px;
    height: 650px;
-   margin-top: 0px;
+ 
 }
 
 .fix-banner{
@@ -12,14 +12,23 @@
     justify-content: center;
     align-items: center;
     
+    
   
 }
+.image-fix{
+    width: 430px;
+    height: 400px;
+    margin-top: 110px;
+    margin-left: 149px;
+    
+}
 .top-text{
-    font-size: 20px;
+    font-size: 45px;
     font-weight: 700;
-    margin-top: -140px;
+  
     margin-left: 30px;
 }
 .peragraph{
     margin-left: 30px;
 }
+

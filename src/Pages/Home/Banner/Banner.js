@@ -8,7 +8,9 @@ function Banner() {
       <div id="slide1" className=" relative w-full">
         <div className="fix-banner">
           <div className="text-white">
-            <h2 className="top-text">WE WILL HELP YOU TO BECOME HEALTHY</h2>
+            <h2 className="top-text">
+              WE WILL HELP YOU <br /> TO BECOME HEALTHY
+            </h2>
             <br />
 
             <p className="text-white peragraph">
@@ -16,8 +18,7 @@ function Banner() {
               <br />
               impedit Porta semper lacus cursus, feugiat primis ultrice in
               <br />
-              ligula risus auctor tempus feugiat dolor impedit magna purus at
-              pretium donec
+              ligula risus auctor tempus feugiat dolor impedit magna purus
             </p>
           </div>
           <div className="image-fix">
