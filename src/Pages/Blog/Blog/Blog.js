@@ -6,7 +6,7 @@ import "../Blog.css";
 function Blog() {
   return (
     <div>
-      <h3 className="text-xl font-bold text-black uppercase text-center pt-5 pb-5 ">
+      <h3 className="text-xl font-bold text-black uppercase text-center    heading">
         Latest from our blog
       </h3>
       <div className="grid gap-2 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
