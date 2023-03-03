@@ -3,6 +3,7 @@ import pic1 from "../../assets/1.png";
 import pic2 from "../../assets/2.png";
 import pic3 from "../../assets/3.png";
 import Service from "./Service";
+import "./service.css";
 
 const Services = () => {
   const servicesData = [
@@ -28,9 +29,11 @@ const Services = () => {
   ];
 
   return (
-    <div className="mt-16">
+    <div className="mt-14">
       <div className="text-center">
-        <h3 className="text-xl font-bold text-black uppercase">Our Services</h3>
+        <h2 className="text-xl font-bold text-black uppercase  heading">
+          Our Services
+        </h2>
       </div>
       <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {servicesData.map((service) => (
